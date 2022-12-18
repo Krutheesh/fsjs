@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: auto;
+  max-width: 1440px;
+}
+.nav,.ul{
+  display: flex;
+  justify-content:space-between ;
+  list-style: none;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: rgb(65, 61, 61);
+ 
+  
+}
+.nav{
+  margin: 2% 7%;
+  
+  }
+
+.flex-items:first-child{
+  color:rgb(25, 156, 25);
+
+}
+.main{
+  display: flex;
+  margin: 2% 10%;
+  align-items: center;
+  justify-content: center; 
+  
+}
+.right{
+ width: 50%;
+}
+.left{
+  width: 50%;
+  position: relative;
+  
+}
+.bottom{
+  position:absolute;
+  right: 5%;
+  
+  
+}
+.mouse{
+  position: absolute;
+  right: -2%;
+  bottom: -2%;
+}
+button{
+  
+  background-color: rgb(3, 168, 96);
+  
+  border: none;
+  color: white;
+  font-size: 28px ;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+
+}
+.stethoscope{
+  position: absolute;
+  top: -7%;
+  left: 35%;
+  z-index: -1;
+  width: 90%;
+  height: 120%;
+  
+}
+
+h1{
+  font-size: 55px;
+  font-family: sans-serif;
+  
+}
+.main p{
+  position: relative;
+  font-size: 17px;
+  color: rgb(79, 78, 78);
+  margin-bottom: 25px;
+  font-family: sans-serif;
+}
+
+.doctor{
+  
+  position: absolute; 
+  top: 12%;
+  width: 40%;
+  height: 90%;
+  right: 1%;
+  
+}
+.green{
+  position: absolute; 
+  top: 30%;
+  width: 40%;
+  height: 65%;
+  right: 0;
+}
+.yellow{
+  position: absolute; 
+  top: 35%;
+  width: 35%;
+  height: 58%;
+  right: -1%;
+  
+}
+h1 img{
+  position: absolute;
+  top: 10px;
+}
+ul{
+  width: 500px;
+  
+  margin-right: 50px;
+}
